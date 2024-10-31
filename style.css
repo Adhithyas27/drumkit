@@ -1,0 +1,89 @@
+html{
+  
+    font-family: "Rubik Wet Paint", serif;
+    background-image: url();
+
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+
+}
+.head{
+    display: flex;
+    grid-column: span 7;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.drum{
+    font-family: "Rubik Wet Paint", serif;
+    font-size: 30px;
+    color: rgb(209, 104, 99);
+    background-color: antiquewhite;
+}
+
+.w{
+    background-image: url(./images/tom1.png) ;
+    background-position: center;
+    padding:100px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.a{
+    background-image: url(./images/tom2.png) ;
+    background-position: center;
+    padding:100px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.s{
+    background-image: url(./images/tom3.png) ;
+    background-position: center;
+    padding:100px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.d{
+    background-image: url(./images/tom4.png) ;
+    background-position: center;
+    padding:100px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.j{
+    background-image: url(./images/snare.png) ;
+    background-position: center;
+    padding:100px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: contain;
+}
+.k{
+    background-image: url(./images/crash.png) ;
+    background-position: center;
+    padding:100px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: contain;
+}
+.l{
+    background-image: url(./images/kick.png) ;
+    background-position: center;
+    padding:100px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: contain;
+}
+p{
+ font-size:25px;
+}
+.footer{
+    grid-column: span 7;
+    padding-top:100px;
+    background-color: antiquewhite;
+}
+.white{
+    color: white;
+}
